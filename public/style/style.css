@@ -138,7 +138,7 @@ video {
     display: block;
     max-width: 474.672px;
     width: 100%;
-    height: 82.131px;
+    height: min-content;
     padding: 12.698px;
     justify-content: center;
     align-items: center;
