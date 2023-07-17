@@ -8,7 +8,9 @@ body::-webkit-scrollbar {
     width: 11px;
     /* width of the entire scrollbar */
 }
-
+p cite {
+    font-style: none;
+}
 body::-webkit-scrollbar-track {
     background: #211E1E;
     /* color of the tracking area */
@@ -772,7 +774,7 @@ footer {
     width: 50px;
     height: 50px;
     z-index: 3;
-    display: none;
+    display: block;
     pointer-events: none;
 }
 #pause {
