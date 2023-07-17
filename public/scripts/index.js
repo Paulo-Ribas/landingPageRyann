@@ -1,6 +1,6 @@
 function bringDate() {
     return new Promise((resolve, reject) => {
-        fetch('http://localhost:3333/timePromotion').then(res => {
+        fetch('https://esteticaexcepcional.com.br/timePromotion').then(res => {
            return res.json()
         }).then(time => {
             resolve(time.data)
