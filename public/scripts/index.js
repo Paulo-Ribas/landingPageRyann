@@ -37,5 +37,18 @@ function innerTime(Tday, Thour, Tminutes, Tseconds) {
     hour.innerHTML = Thour
     minutes.innerHTML = Tminutes
     seconds.innerHTML = Tseconds
+    verifyPlural(Tday, Thour, Tminutes, Tseconds)
+}
+
+function verifyPlural(Tday, Thour, Tminutes, Tseconds) {
+    let day = document.getElementById('dayText')
+    let hour = document.getElementById('hourText')
+    let minutes = document.getElementById('minutesText')
+    let seconds = document.getElementById('secondsText')
     
+    Tday != 1 ? day.innerHTML ='dias' : day.innerHTML ='dia'
+    Thour != 1 ? hour.innerHTML = 'horas' : hour.innerHTML = 'hora'
+    Tminutes != 1 ? minutes.innerHTML = 'minutos' : minutes.innerHTML = 'minuto'
+    Tseconds != 1 ? seconds.innerHTML = 'segundos' : seconds.innerHTML = 'segundo'
+   
 }

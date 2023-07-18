@@ -4,7 +4,7 @@ let pauseIcon = document.getElementById('pause')
 
 function play() {
     video.play()
-    if(playIcon.style.animation ==! "play") playIcon.style.animation = "play"
+    if(playIcon.style.animationName ==! "play") playIcon.style.animationName = "play"
     playIcon.style.display = 'block'
     pauseIcon.style.display = 'none'
 
