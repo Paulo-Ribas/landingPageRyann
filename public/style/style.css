@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
     /* width of the entire scrollbar */
 }
 p cite {
-    font-style: none;
+    font-style: normal;
 }
 body::-webkit-scrollbar-track {
     background: #211E1E;
