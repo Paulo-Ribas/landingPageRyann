@@ -20,7 +20,7 @@ app.get('/timePromotion', (req, res) => {
         let dateNow = Date.now()
         let newDate = undefined
         date === undefined || date.getTime() >= dateNow ? newDate = DateModel.remakeDate(dateNow) : date = date
-    
+        console.log(date >= dateNow)
         if (newDate != undefined) {
             date = newDate
         }
