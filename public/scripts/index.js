@@ -23,7 +23,7 @@ function startCountdown(data) {
         let dateBackEnd = data
         let countdown = (dateBackEnd - dateFront)
         let newDate = new Date(countdown)
-        innerTime(newDate.getDay(), newDate.getHours(), newDate.getMinutes(), newDate.getSeconds())
+        innerTime(newDate.getDate(), newDate.getHours(), newDate.getMinutes(), newDate.getSeconds())
     }, 1000);
     
 }
